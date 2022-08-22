@@ -66,11 +66,11 @@ namespace ObjectOrientedProgramming
                     }
                 }
             }
-            catch (DirectoryNotFoundException exception)
+            catch (DirectoryNotFoundException)
             {
                 MessageBox.Show("Kaynak ve/veya hedef klasörün yolu bulunamadı", "Uyarı");
             }
-            catch (IOException exception)
+            catch (IOException)
             {
                 MessageBox.Show("Dosya kullanılırken kopyalama yapamazsınız", "Uyarı");
             }

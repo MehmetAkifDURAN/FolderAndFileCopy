@@ -66,7 +66,7 @@ namespace ObjectOrientedProgramming
             this.copyBtn.Name = "copyBtn";
             this.copyBtn.Size = new System.Drawing.Size(75, 60);
             this.copyBtn.TabIndex = 3;
-            this.copyBtn.Text = "Copy";
+            this.copyBtn.Text = "Kopyala";
             this.copyBtn.UseVisualStyleBackColor = true;
             this.copyBtn.Click += new System.EventHandler(this.copyBtn_Click);
             // 
